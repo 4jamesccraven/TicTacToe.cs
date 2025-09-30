@@ -19,6 +19,8 @@
             dotnet-sdk_9
           ];
         };
+
+        packages.default = pkgs.callPackage ./package.nix { };
       }
     );
 }
